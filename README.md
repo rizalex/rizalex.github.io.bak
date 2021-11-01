@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Welcome to my personal website
 ====================
 
@@ -26,3 +27,7 @@ Images are in '/img/team/'
 # Demo
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+=======
+# rizalex.github.io
+My personal website
+>>>>>>> 71b76af82afb6769726a166c77c9416ae3b99b4e
