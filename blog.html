@@ -4,28 +4,20 @@
 layout: page
 title: Blog
 pagination:
-  enabled: true
+  enabled: false
 ---
 <section class="list">
-	{% if site.posts.size == 0 %}
+	{% if site.medium_posts.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
-	{% elsif site.pagination.enabled %}
-		{% for post in paginator.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-
-		{% include pagination.html%}
 	{% else %}
-		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
+		{% for post in site.medium_posts %}
+		<div class="item">
+			<a class="url" href="{{ post.medium_link }}">
+				<aside>Read more...</aside>
+				<h3 class="title">{{ post.title }}</h3>
+			</a>
+			<h4>{{ post.feed_date }}</h4>
+		</div>
 		{% endfor %}
 	{% endif %}
 </section>
