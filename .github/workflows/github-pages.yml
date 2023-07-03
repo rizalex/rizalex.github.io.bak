@@ -20,7 +20,7 @@ jobs:
             ${{ runner.os }}-gems-
       - uses: helaili/jekyll-action@2.4.0    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
-          token: ${{ secrets.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 }}
+          token: ${{ secrets.JEKYLL_PAT }}
           target_branch: 'gh-pages'
         env:
-          JEKYLL_PAT: ${{ secrets.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 }}
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
