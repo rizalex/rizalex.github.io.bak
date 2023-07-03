@@ -1,14 +1,12 @@
-Welcome to my personal website
-====================
+## Thanks
 
-# @rizal_ex
+- Indigo Minimalist Jekyll Template - <a href="https://sergiokopplin.github.io/indigo/">Link</a>
 
+***
 
-Agency Jekyll theme
-====================
+## Me?
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+---
+## License
 
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+[MIT](https://kopplin.mit-license.org/) License © Sérgio Kopplin
