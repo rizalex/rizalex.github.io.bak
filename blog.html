@@ -7,12 +7,13 @@ pagination:
   enabled: false
 ---
 <section class="list">
+	<meta http-equiv="refresh" content="5; URL=javascript:window.open('http://rizalex.medium.com','_blank');">
 	{% if site.medium_posts.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	{% else %}
 		{% for post in site.medium_posts %}
 		<div class="item">
-			<a class="url" href="{{ post.medium_link }}">
+			<a class="url" href="{{ post.link }}">
 				<aside>Read more...</aside>
 				<h3 class="title">{{ post.title }}</h3>
 			</a>
