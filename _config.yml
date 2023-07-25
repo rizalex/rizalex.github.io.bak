@@ -128,3 +128,14 @@ exclude:
     "FAQ.md",
     "vendor",
   ]
+
+asciidoc: {}
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    - idseparator=_
+    - source-highlighter=coderay
+    - icons=font
+
+# ref: https://github.com/marketplace/actions/jekyll-build-action
